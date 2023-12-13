@@ -27,16 +27,7 @@ void compra(struct loja produto){
 }
 
 void mostrarEstoque(struct loja produto){
-
-    if (produto.estoque = 0){
-                printf("Produto Indisponivel");
-                return;
-         }
-    else 
-         {
-                printf("Estoque Disponivel: %d \n", produto.estoque);
-         }
-
+ printf("Estoque Disponivel: %d \n", produto.estoque);         
 }
 
 void encerrarProgama(){
